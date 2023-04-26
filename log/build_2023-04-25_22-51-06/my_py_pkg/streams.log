@@ -1,0 +1,24 @@
+[1.582s] Invoking command in '/home/karthik/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/karthik/ros2_ws/build/my_py_pkg/prefix_override:/home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/karthik/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.930s] running develop
+[2.116s] running egg_info
+[2.117s] writing my_py_pkg.egg-info/PKG-INFO
+[2.117s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.117s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.118s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.118s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.170s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.204s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.260s] running build_ext
+[2.262s] Creating /home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[2.263s] Installing add_two_ints_client script to /home/karthik/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.263s] Installing add_two_ints_client_no_oop script to /home/karthik/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.264s] Installing add_two_ints_server script to /home/karthik/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.264s] Installing hw_status_publisher script to /home/karthik/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.265s] Installing py_node script to /home/karthik/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.265s] Installing robot_news_station script to /home/karthik/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.265s] Installing smartphone script to /home/karthik/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.266s] 
+[2.266s] Installed /home/karthik/ros2_ws/build/my_py_pkg
+[2.266s] running install_data
+[2.266s] copying package.xml -> /home/karthik/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.306s] Invoked command in '/home/karthik/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/karthik/ros2_ws/build/my_py_pkg/prefix_override:/home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/karthik/ros2_ws/build/my_py_pkg/build --no-deps install_data

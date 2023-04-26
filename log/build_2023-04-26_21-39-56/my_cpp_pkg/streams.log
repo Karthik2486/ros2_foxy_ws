@@ -1,0 +1,77 @@
+[0.153s] Invoking command in '/home/karthik/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/karthik/ros2_ws/install/my_robot_interfaces:/home/karthik/ros2_ws/install/my_cpp_pkg:/home/karthik/ros2_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/karthik/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/karthik/ros2_ws/build/my_py_pkg:/home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/karthik/ros2_ws/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karthik/ros2_ws/install/my_cpp_pkg
+[0.263s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.490s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.555s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.631s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.872s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.109s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.217s] -- Found my_robot_interfaces: 0.0.0 (/home/karthik/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.234s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.302s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.303s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.304s] -- Configured cppcheck include dirs: 
+[1.304s] -- Configured cppcheck exclude dirs and/or files: 
+[1.305s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.305s] -- Configured cpplint exclude dirs and/or files: 
+[1.306s] -- Added test 'lint_cmake' to check CMake code style
+[1.307s] -- Added test 'uncrustify' to check C / C++ code style
+[1.307s] -- Configured uncrustify additional arguments: 
+[1.308s] -- Added test 'xmllint' to check XML markup files
+[1.312s] -- Configuring done
+[1.432s] -- Generating done
+[1.441s] -- Build files have been written to: /home/karthik/ros2_ws/build/my_cpp_pkg
+[1.454s] Invoked command in '/home/karthik/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/karthik/ros2_ws/install/my_robot_interfaces:/home/karthik/ros2_ws/install/my_cpp_pkg:/home/karthik/ros2_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/karthik/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/karthik/ros2_ws/build/my_py_pkg:/home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/karthik/ros2_ws/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karthik/ros2_ws/install/my_cpp_pkg
+[1.459s] Invoking command in '/home/karthik/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/karthik/ros2_ws/install/my_robot_interfaces:/home/karthik/ros2_ws/install/my_cpp_pkg:/home/karthik/ros2_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/karthik/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/karthik/ros2_ws/build/my_py_pkg:/home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/karthik/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[1.528s] [35m[1mScanning dependencies of target number_publisher[0m
+[1.529s] [35m[1mScanning dependencies of target number_counter[0m
+[1.569s] [  5%] [32m[1mLinking CXX executable cpp_node[0m
+[1.570s] [ 11%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[1.571s] [ 16%] [32m[1mLinking CXX executable robot_news_station[0m
+[1.572s] [ 22%] [32m[1mLinking CXX executable smartphone[0m
+[1.574s] [ 27%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[1.583s] [ 33%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[1.619s] [ 38%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.623s] [ 44%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[2.341s] [ 50%] Built target add_two_ints_server
+[2.354s] [ 55%] Built target cpp_node
+[2.384s] [ 61%] Built target add_two_ints_client_no_oop
+[2.424s] [ 66%] Built target add_two_ints_client
+[2.435s] [ 77%] Built target hardware_status_publisher
+[2.505s] [ 83%] Built target robot_news_station
+[2.587s] [ 88%] Built target smartphone
+[4.692s] [ 94%] [32m[1mLinking CXX executable number_publisher[0m
+[4.850s] [ 94%] Built target number_publisher
+[6.468s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[6.707s] [100%] Built target number_counter
+[6.717s] Invoked command in '/home/karthik/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/karthik/ros2_ws/install/my_robot_interfaces:/home/karthik/ros2_ws/install/my_cpp_pkg:/home/karthik/ros2_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/karthik/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/karthik/ros2_ws/build/my_py_pkg:/home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/karthik/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[6.765s] Invoking command in '/home/karthik/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/karthik/ros2_ws/install/my_robot_interfaces:/home/karthik/ros2_ws/install/my_cpp_pkg:/home/karthik/ros2_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/karthik/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/karthik/ros2_ws/build/my_py_pkg:/home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/karthik/ros2_ws/build/my_cpp_pkg
+[6.772s] -- Install configuration: ""
+[6.772s] -- Execute custom install script
+[6.772s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[6.781s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[6.789s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[6.797s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[6.804s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[6.812s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[6.820s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[6.828s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[6.836s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[6.844s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[6.852s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[6.860s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[6.868s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[6.876s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[6.884s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[6.892s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[6.902s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[6.910s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[6.918s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[6.925s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[6.933s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[6.941s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[6.949s] -- Symlinking: /home/karthik/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[6.959s] Invoked command in '/home/karthik/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/karthik/ros2_ws/install/my_robot_interfaces:/home/karthik/ros2_ws/install/my_cpp_pkg:/home/karthik/ros2_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/karthik/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/karthik/ros2_ws/build/my_py_pkg:/home/karthik/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/karthik/ros2_ws/build/my_cpp_pkg
